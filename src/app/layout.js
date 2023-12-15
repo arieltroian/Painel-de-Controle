@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Painel de Administração | Ariel Troian 1",
+  title: "Painel de Administração | Ariel Troian",
 };
 
 export default function RootLayout({ children }) {
