@@ -1,9 +1,9 @@
-import Dashboard from "./dashboard/page";
+import Layout from "./dashboard/layout";
 
 const Homepage = () => {
   return (
     <div>
-      <Dashboard />
+      <Layout />
     </div>
   );
 };
