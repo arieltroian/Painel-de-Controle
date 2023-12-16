@@ -9,6 +9,25 @@ import {
   MdSearch,
 } from "react-icons/md";
 
+const pageTitle = [
+  {
+    title: "Painel de controle",
+    path: "/dashboard",
+  },
+  {
+    title: "Usuários",
+    path: "/dashboard/users",
+  },
+  {
+    title: "Produtos",
+    path: "/dashboard/products",
+  },
+  {
+    title: "Transações",
+    path: "/dashboard/transactions",
+  },
+];
+
 const Navbar = () => {
   const pathname = usePathname();
 
@@ -35,3 +54,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// {pathname.split("/").pop()}
